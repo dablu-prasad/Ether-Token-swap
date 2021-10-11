@@ -20,5 +20,27 @@ truffle compile
 # use infura for deploying project on Ropsten TestNet
 Infura is a Web3 backend and Infrastructure-as-a-Service (IaaS) provider that offers a range of services and tools for blockchain developers. This includes the Infura API (Application Programming Interface) suite. The flagship Infura Ethereum API is at the heart of the Infura Web3 service.
 
+# install following things  for deployment
+
+npm install fs
+
+npm install @truffle/hdwallet-provider
+
+
+
+# Migrate Truffle Project for Ropsten Project
+
+truffle migrate --network ropsten
+
+truffle deploy --network ropsten --reset --compile-none
+
+
+# for add fack token in ropsten
+
+goto website https://faucet.ropsten.be/
+
+# for check transaction details about accounts
+
+goto website https://ropsten.etherscan.io/
 
 
